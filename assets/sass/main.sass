@@ -225,19 +225,47 @@ button
                 color: #fff
                 margin: 42px 0px
                 max-width: 442px
+.materials
+    color: #fff
+    .material__content
+        .material__intro
+            h1
+                text-align: center
+                font-weight: 500
+        .material__info
+            display: flex
+            margin-top: 60px
+            .material__info-text
+                padding: 130px 25px
+                background: $blur
+                backdrop-filter: blur(40px)
+                align-items: center
+                border-top-left-radius: 10px
+                border-bottom-left-radius: 10px
+                .material__text
+                    display: flex
+                    p
+                        margin: 10px 12px
+                        font-size: 16px 
+            .material__info-img
+                display: grid
+                grid-template-columns: 1fr 1fr 1fr
+                .material__img
+                    position: relative
+                    p
+                        padding: 10px 15px
+                        background-color: #0D1012
+                        border-radius: 5px
+                        position: absolute
+                        bottom: -10px
+                        left: 10%
+                        z-index: 2
+                        min-width: 173px
+                        max-width: 173px
+                        text-align: center
+                        border: 1px solid
+                        border: 1px linear linear-gradient(270deg, rgba(250, 177, 90, 0) -3.2%, rgba(250, 177, 90, 0.71) 38.12%, rgba(250, 177, 90, 0.53) 52.75%, rgba(250, 177, 90, 0.81) 73.24%, rgba(250, 178, 90, 0) 104.81%)
 
-
-
-
-
-
-
-
-
-
-
-
-                
 @media screen and (max-width: 1240px)
     .container
         max-width: 1240px
