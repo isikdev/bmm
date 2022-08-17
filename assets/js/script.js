@@ -1,6 +1,7 @@
 $('.work__images').slick({
-    arrows: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
+    prevArrow: $('.slider-left'),
+    nextArrow: $('.slider-right'),
 });

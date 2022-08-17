@@ -145,7 +145,7 @@ button
                     .work__workers
                         display: flex
                         max-width: 100%
-                        margin-top: 30px
+                        margin-top: 60px
                         .work__images
                             width: 70%
                             position: relative
@@ -164,6 +164,80 @@ button
                             color: #fff
                             p
                                 max-width: 324px
+                                margin-top: 10px
+                            .worker__slider-btn
+                                width: 90%
+                                display: flex
+                                button
+                                    background: transparent
+                                    margin: 20px 2px
+                                    &:nth-child(1)
+                                        margin: 0px 0px
+                            .work__slider-btn
+                                width: 90%
+                                display: flex
+                                justify-content: flex-end
+                                button
+                                    background: transparent
+                                    margin: 20px 2px
+                                    &:nth-child(1)
+                                        margin: 0px 0px
+.news
+    .news__content
+        display: flex
+        justify-content: space-between
+        .news__img
+            position: relative
+            img
+                max-width: 90%
+            .person__info
+                display: flex
+                width: 100%
+                position: absolute
+                left: 120px
+                bottom: 60px
+                button
+                    background: $blur
+                    backdrop-filter: blur(40px)
+                .person__line
+                    position: absolute
+                    top: 40px
+                    left: 150px
+                    display: flex
+                    p
+                        color: #fff
+                        margin-left: 12px
+                    img
+                        max-width: 50%
+        .news__intro
+            margin: 40px 0px
+            h1
+                color: #fff
+                font-weight: 500
+            hr
+                max-width: 40%
+                border: 1px solid #FDBB59
+                margin: 10px 0px
+            .news__intro-subtitle
+                color: #FDBB59
+                margin: 10px 0px
+            p
+                color: #fff
+                margin: 42px 0px
+                max-width: 442px
+
+
+
+
+
+
+
+
+
+
+
+
+                
 @media screen and (max-width: 1240px)
     .container
         max-width: 1240px

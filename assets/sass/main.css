@@ -170,7 +170,7 @@ button {
 .workers .work__content .work__otdels .work__btns .work__tabs .work__workers {
   display: flex;
   max-width: 100%;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 .workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__images {
   width: 70%;
@@ -194,6 +194,87 @@ button {
 }
 .workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__text p {
   max-width: 324px;
+  margin-top: 10px;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__text .worker__slider-btn {
+  width: 90%;
+  display: flex;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__text .worker__slider-btn button {
+  background: transparent;
+  margin: 20px 2px;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__text .worker__slider-btn button:nth-child(1) {
+  margin: 0px 0px;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__text .work__slider-btn {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__text .work__slider-btn button {
+  background: transparent;
+  margin: 20px 2px;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__text .work__slider-btn button:nth-child(1) {
+  margin: 0px 0px;
+}
+
+.news .news__content {
+  display: flex;
+  justify-content: space-between;
+}
+.news .news__content .news__img {
+  position: relative;
+}
+.news .news__content .news__img img {
+  max-width: 90%;
+}
+.news .news__content .news__img .person__info {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  left: 120px;
+  bottom: 60px;
+}
+.news .news__content .news__img .person__info button {
+  background: linear-gradient(122.61deg, rgba(252, 254, 255, 0.3) 30.49%, rgba(252, 254, 255, 0.1) 74.05%);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+}
+.news .news__content .news__img .person__info .person__line {
+  position: absolute;
+  top: 40px;
+  left: 150px;
+  display: flex;
+}
+.news .news__content .news__img .person__info .person__line p {
+  color: #fff;
+  margin-left: 12px;
+}
+.news .news__content .news__img .person__info .person__line img {
+  max-width: 50%;
+}
+.news .news__content .news__intro {
+  margin: 40px 0px;
+}
+.news .news__content .news__intro h1 {
+  color: #fff;
+  font-weight: 500;
+}
+.news .news__content .news__intro hr {
+  max-width: 40%;
+  border: 1px solid #FDBB59;
+  margin: 10px 0px;
+}
+.news .news__content .news__intro .news__intro-subtitle {
+  color: #FDBB59;
+  margin: 10px 0px;
+}
+.news .news__content .news__intro p {
+  color: #fff;
+  margin: 42px 0px;
+  max-width: 442px;
 }
 
 @media screen and (max-width: 1240px) {
