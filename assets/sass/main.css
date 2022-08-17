@@ -5,6 +5,8 @@
   box-sizing: border-box;
   font-family: "Montserrat", serif;
   transition: 0.3s;
+  min-width: 0;
+  min-height: 0;
 }
 
 body, html {
@@ -37,10 +39,14 @@ h4 {
   font-size: 34px;
 }
 
+section {
+  margin: 70px 0px;
+}
+
 button {
   cursor: pointer;
   padding: 15px 14px;
-  background: linear-gradient(180deg, #FEBC59 0%, #F19C5E 91.15%);
+  background: linear-gradient(160.16deg, #FDBB59 18.04%, #F4A939 94.59%);
   border: 0px none;
   border-radius: 5px;
   outline: none;
@@ -128,6 +134,66 @@ button {
 }
 .contact .contact__content .contact__block:last-child {
   border: 0px none;
+}
+
+.projects {
+  margin: 163px 0px;
+}
+.projects .projects__content .projects__intro h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+.projects .projects__content .projects__slider .project__slide {
+  display: flex;
+  justify-content: space-between;
+}
+.workers .work__content .work__intro h1 {
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+.workers .work__content .work__otdels .work__btns h4 {
+  color: #fff;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs {
+  margin-top: 30px;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .default {
+  background: #1C1F21;
+  border: 1px solid #5B5D60;
+  margin-left: 14px;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .active {
+  color: #1c1f21;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers {
+  display: flex;
+  max-width: 100%;
+  margin-top: 30px;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__images {
+  width: 70%;
+  position: relative;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__images .work__img img {
+  margin-left: 0px;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__images .work__img p {
+  background: linear-gradient(122.61deg, rgba(252, 254, 255, 0.3) 30.49%, rgba(252, 254, 255, 0.1) 74.05%);
+  border-radius: 10px;
+  padding: 10px 15px;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__text {
+  color: #fff;
+}
+.workers .work__content .work__otdels .work__btns .work__tabs .work__workers .work__text p {
+  max-width: 324px;
 }
 
 @media screen and (max-width: 1240px) {
